@@ -1,0 +1,115 @@
+.navbar {
+  background-color: #9B9B8C;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid black;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #EEEEEE;
+}
+
+.leftHalf {
+  background-color: #EEEEEE;
+  height: 100vh;
+  width: 45%;
+  float: left;
+}
+
+.leftSideContentCont {
+  margin-left: 30%;
+  margin-top: 40%
+}
+
+.trackBinText {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 200;
+  color: #692A7E;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  width: 50%;
+}
+
+.chooseTracksBtn {
+  background-color: #353526;
+  color: #EEEEEE;
+  width: 200px;
+}
+
+.rightHalf {
+  height: 100vh;
+  width: 55%;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.railImage {
+  background-image: url(resources/track.fw.png);
+  background-size: 100%;
+  opacity: 0.4;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.albumsContainer {}
+
+.albImgContOne {
+  height: 215px;
+  width: 200px;
+  background-color: red;
+  padding: 0;
+  margin-left: 35%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.albImgOne{
+  height: 60px;
+  width: 60px;
+}
+
+.albImgContTwo {
+  height: 215px;
+  width: 200px;
+  background-color: blue;
+  padding: 0;
+  margin-left: 35%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  position: relative;
+  z-index: 1;
+}
+
+.albImgContThree {
+  height: 215px;
+  width: 200px;
+  background-color: green;
+  padding: 0;
+  margin-left: 35%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.footer {
+  height: 40px;
+  background-color: #9B9B8C;
+}
+
+.footerText {
+  margin-left: 50px;
+  color: white;
+  font-weight: 200;
+}

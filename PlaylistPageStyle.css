@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+.topNavBar {
+  height: 120px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #9B9B8C;
+}
+
+.navbarText {
+  color: white;
+  font-weight: 200;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+.row {
+  height: 120px;
+  border: 1px solid black;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.albumCoverCont {
+  height: 70px;
+  width: 70px;
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.albumListCont {
+  background-color: #EEEEEE;
+  height: 160px;
+  border: 2px solid black;
+}
+
+.btnRow {
+  margin-top: 20px;
+  padding: 0;
+  
+}
+
+.buttonOne {
+  width: 40%;
+  margin-right: 3%;
+  color: white;
+  background-color: #353526;
+  font-weight: 200;
+  height: 40px;
+}
+
+.buttonTwo {
+  width: 40%;
+  color: white;
+  background-color: #353526;
+  font-weight: 200;
+  height: 40px;
+}
+
+#footerBottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
+.footer {
+  height: 40px;
+  background-color: #9B9B8C;
+}
+
+.footerText {
+  margin-left: 50px;
+  color: white;
+  font-weight: 200;
+}
