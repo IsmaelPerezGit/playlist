@@ -5,7 +5,10 @@ window.addEventListener('load', function(){
       success:function(data){
       var image =(data["results"][0]['cover_art']);
       $('.albImgOne').attr('src', image)
-      }
+
+      $('.chooseTracksBtn').click(function() {
+        window.location='PlaylistPage.html';
+      });      }
     });
 
 });

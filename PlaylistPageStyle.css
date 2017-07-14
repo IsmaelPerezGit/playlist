@@ -41,6 +41,10 @@ body {
   margin-top: 10px;
   margin-left: 40px;
 }
+.images{
+  height: 100%;
+  width: 100%;
+}
 
 .albumListCont {
   background-color: #EEEEEE;

@@ -84,8 +84,8 @@ body{
   z-index: 1;
 }
 .albImgOne{
-  height: 60px;
-  width: 60px;
+  height: 100%;
+  width: 100%;
 }
 
 .albImgContTwo {
